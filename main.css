@@ -1,16 +1,23 @@
 html, body {
   max-width: 100%;
-	margin:20px 40px;
+	margin:10px 40px;
 }
 
 img{
-	padding-left:20px;
 	height:180px;
 	width:180px;
 }
 
-.top {
+nav li {
+	display:inline;
+	padding-left:20px;
+}
+
+.about {
 	display:flex;
+}
+.intro {
+	padding-left:20px;
 }
 
 .main {

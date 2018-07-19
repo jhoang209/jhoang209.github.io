@@ -1,0 +1,22 @@
+html, body {
+  max-width: 100%;
+	margin:20px 40px;
+}
+
+img{
+	padding-left:20px;
+	height:180px;
+	width:180px;
+}
+
+.top {
+	display:flex;
+}
+
+.main {
+	width:860px;
+}
+
+.right {
+	float:right;
+}

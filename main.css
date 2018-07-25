@@ -1,27 +1,49 @@
 html, body {
   max-width: 100%;
-	margin:10px 40px;
+	width:860px;
+	margin: 10px auto;
 }
 
 img{
-	height:240px;
-	width:240px;
+	height:180px;
+	width:180px;
+	margin:16px;
 }
 
-nav li {
+
+
+nav {
+	border-bottom: 1px solid #808080;
+}
+
+footer {
+    border-top: 1px solid #808080;
+    font-size: .8em;
+}
+
+a {
+	text-decoration: none;
+	color: #808080;
+}
+
+nav li, footer li {
 	display:inline;
-	padding-left:20px;
+	padding-left:10px;
 }
 
 .about {
 	display:flex;
+}
+
+.about h1, .about p{
+	margin:10px 0px;
 }
 .intro {
 	padding-left:20px;
 }
 
 .main {
-	width:860px;
+
 }
 
 .right {

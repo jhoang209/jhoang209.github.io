@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "I launch my first website"
+title: "Launched my first website"
 date: 2018-07-24
 ---
 

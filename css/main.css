@@ -1,8 +1,6 @@
-html {
-  overflow-y: overlay;
-}
 
-body {
+html, body {
+  overflow-y: overlay;
   max-width: 100%;
   width:860px;
   margin: 10px auto;

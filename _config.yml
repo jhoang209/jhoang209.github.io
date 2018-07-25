@@ -1,2 +1,3 @@
 name: Who is Jimmy Hoang
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title

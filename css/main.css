@@ -1,44 +1,44 @@
 html, body {
   max-width: 100%;
-	width:860px;
-	margin: 10px auto;
+  width:860px;
+  margin: 10px auto;
 }
 
 img{
-	height:180px;
-	width:180px;
-	margin:16px;
+  height:180px;
+  width:180px;
+  margin:16px;
 }
 
 nav {
-	border-bottom: 1px solid #808080;
+  border-bottom: 1px solid #808080;
 }
 
 footer {
-    border-top: 1px solid #808080;
-    font-size: .8em;
+  border-top: 1px solid #808080;
+  font-size: .8em;
 }
 
 a {
-	text-decoration: none;
-	color: #808080;
+  text-decoration: none;
+  color: #808080;
 }
 
 nav li, footer li {
-	display:inline;
-	padding-left:10px;
+  display:inline;
+  padding-left:10px;
 }
 
 .about {
-	display:flex;
+  display:flex;
 }
 
 .about h1, .about p{
-	margin:10px 0px;
+  margin:10px 0px;
 }
 .intro {
-	padding-left:20px;
+  padding-left:20px;
 }
 .right {
-	float:right;
+  float:right;
 }

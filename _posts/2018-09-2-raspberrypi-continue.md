@@ -1,0 +1,7 @@
+---
+layout: post
+title: "First RPi Project continued"
+date: 2018-09-2
+---
+
+As I said, I was going to upload some photos and videos, but was unable to due to my videos being larger then 25mb. I am hoping to figure out how to work around it so I can show my works. Anyways, after completing the hello world project of lighting up an LED, I added 2 more of the same LEDs and attempted to light those up as well. Initially, I set it up so that the three LEDs were in parallel and connected to the single resistor. However, I was only able to light up one of those at a time which at the time was odd because from what I had learned so far, the voltage across elements in parallel would be the same. After a bit a googling, I learned that every LED element is somewhat different, so the LED which the lowest forward voltage, which is basically the minimum voltage drop needed to allow electrons to flow in an LED, will be conducting most of the current. That explains why I was only able to light a single LED. After connecting each LED with a resistor, I was able to light all three LEDs. Next, I decided to make each of them blink, one after the other, which was easily done by using time functions in python. After that, I was able to make use of a push button to light up a LED when pushed. Finally, I combined those two together so that whenever I pressed the push button, the blinking light sequence would begin. The next thing I am going to work with is a 7-segment display, which I will update later.
